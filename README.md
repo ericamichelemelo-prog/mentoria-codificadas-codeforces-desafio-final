@@ -48,7 +48,7 @@ Neste desafio, usei o Gemini como um mentor técnico. A IA me ajudou em:
 
 ---
 
-##Reflexão final
+## Reflexão final
 
 **Dificuldades:** Minha maior dificuldade foi o raciocínio lógico em fórmulas matemáticas e compreender as nuances da tradução automática de termos técnicos. Isso gerou muita confusão na hora de passar o pensamento para a ''gramática'' (sintaxe) do Python.
 
