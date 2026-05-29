@@ -22,20 +22,20 @@ Este repositório contém a minha jornada de aprendizado em Python e Inteligênc
 ### Problema 2: Even Odds (318A) - O Grande Desafio
 Por mais estranho que pareça, este foi o problema mais difícil de todos na minha opinião. Diferente dos outros, não consegui entender a lógica de primeira, nem de segunda, nem de terceira. Precisei de um tempo muito maior para processar as fórmulas.
 
-**A Lógica:** O desafio era encontrar um número em uma posição 'K' sem criar uma lista real (que travaria o comútador por excesso de memória). Tive que entender que:
-- Se for **ímpar**, a fórmula é '2 * K - 1'.
-- Se for **par**, precisamos calcular a quantidade de ímpares '(n + 1) // 2' e subtrair para achar a posição na sequência dos pares, multiplicando por 2.
+**A Lógica:** O desafio era encontrar um número em uma posição ''K'' sem criar uma lista real (que travaria o comútador por excesso de memória). Tive que entender que:
+- Se for **ímpar**, a fórmula é `2 * K - 1`.
+- Se for **par**, precisamos calcular a quantidade de ímpares `(n + 1) // 2` e subtrair para achar a posição na sequência dos pares, multiplicando por 2.
 
-Escrever isso em Python foi muito dificultoso. Usei o 'map' (que funciona como um **encaminhador**), o 'input().split()' para receber os textos e o 'int' para transformar esses números inteiros de verdade para o programa processar.
+Escrever isso em Python foi muito dificultoso. Usei o 'map' (que funciona como um **encaminhador**), o `input().split()` para receber os textos e o `int` para transformar esses números inteiros de verdade para o programa processar.
 
 ### Problema 1: Watermelon (4A)
 No começo, eu estava com a mente fechada para a lógica desse problema. Eu pensava: *''Que problema de doido, o povo cria problema onde não tem para tentar resolver''*. Esse bloqueio me atrapalhou, mas depois entendi que é matemática (verificar se o peso é par e maior que 2) era a chave.
 
 ### Problema 4: Taxi (158B)
-Este foi primordial para fixar a linguagem! Ele me ajudou a relembrar e aprender comandos como 'list()', 'map()', 'int()', input()' e 'split()'. O uso do 'max(0, ...)' para evitar restos negativos foi uma das lógicas mais interessantes que aprendi aqui.
+Este foi primordial para fixar a linguagem! Ele me ajudou a relembrar e aprender comandos como `list()`, `map()`, `int()`, `input()` e `split()`. O uso do `max(0, ...)` para evitar restos negativos foi uma das lógicas mais interessantes que aprendi aqui.
 
 ### Problema 3: Way Too Long words (71A)
-Neste eu entendi a lógica logo de cara. O desafio foi aprender a escrever as linhas de código corretamenete, já que é a minha primeira vez.Ele reforçou o uso do 'input()' e do 'plit()' que agora já estão fixos ba minha memória.
+Neste eu entendi a lógica logo de cara. O desafio foi aprender a escrever as linhas de código corretamenete, já que é a minha primeira vez.Ele reforçou o uso do `input()` e do `plit()` que agora já estão fixos ba minha memória.
 
 ---
 
@@ -43,7 +43,7 @@ Neste eu entendi a lógica logo de cara. O desafio foi aprender a escrever as li
 
 Neste desafio, usei o Gemini como um mentor técnico. A IA me ajudou em:
 1. **Interpretação:** Me explicando como visualizar o problema sem precisar criar uma lista real no computador, economizando processamento e memória.
-2. **Identificação de Fórmulas:** Me ajudando a chegar na conta certa para os números ímpares no 'Even Odds'.
+2. **Identificação de Fórmulas:** Me ajudando a chegar na conta certa para os números ímpares no `Even Odds`.
 3. **Depuração (debug):** Analizamos juntos meus erros de digitação e garantimos que as converções de tipos (textos para números) estivessem corretas.
 
 ---
